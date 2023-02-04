@@ -1,5 +1,3 @@
-package com.jaron.utilities;
-
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
@@ -19,7 +17,7 @@ public class CopyPasteFolder {
 		}
 
 		copyFolder(sourceFolder, destinationFolder);
-	}///CopyPasteFolder
+	}
 
 	
 	public static void copyFolder(File source, File destination) {
@@ -47,6 +45,6 @@ public class CopyPasteFolder {
 				e.printStackTrace();
 			}
 		}
-	} ///copyFolder
+	} 
 
-} ///class
+} 
