@@ -1,0 +1,13 @@
+String input = "This is a string with \"quoted text\" inside.";
+
+// Find the index of the first quote character
+int start = input.indexOf('\"');
+
+// Find the index of the last quote character
+int end = input.lastIndexOf('\"');
+
+// Extract the substring between the quotes
+String quotedText = input.substring(start + 1, end);
+
+// Print the result
+System.out.println("Quoted Text: " + quotedText);
