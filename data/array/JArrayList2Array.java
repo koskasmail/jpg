@@ -13,7 +13,7 @@ public class Jsb {
 
 		String output = "This is a string with \"quoted text\" and \"more quoted text\" inside \"{F51B5D8A-D646-411F-8DDB-D5729DFD6BA9}\",\"{F51B5D8A-D646-411F-1111-D5729DFD6BA9}\" ";
 
-		Pattern pattern = Pattern.compile("\\{([^}]+)}"); /// ("\{.*?\}");
+		Pattern pattern = Pattern.compile("\\{([^}]+)}");
 		Matcher matcher = pattern.matcher(output);
 
 		ArrayList<String> findList = new ArrayList<String>();
