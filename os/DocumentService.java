@@ -2,12 +2,14 @@
 * DocumentService --> navigator java create service that get all document infromation from folder
 **/
 
+
 import java.io.File;
+import java.util.Date;
 
 public class DocumentService {
 
-    public static void main(String[] args) {
-        String folderPath = "path/to/your/folder"; // Replace with the actual folder path
+    public DocumentService() {
+        String folderPath = "c:\\installs\\"; // Replace with the actual folder path
 
         File folder = new File(folderPath);
         if (folder.exists() && folder.isDirectory()) {
